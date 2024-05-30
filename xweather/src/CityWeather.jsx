@@ -4,7 +4,7 @@ import './Cityweather.css'
 import Cards from './Cards'
 
 const api_key = process.env.REACT_APP_WEATHER_API_KEY
-let api = `http://api.weatherapi.com/v1/current.json?key=${api_key}&q=`
+let api = `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=`
 
 export default function CityWeather() {
 
