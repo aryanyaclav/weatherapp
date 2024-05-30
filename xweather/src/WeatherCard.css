@@ -1,0 +1,16 @@
+.weather-card{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+.value-oaram{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
